@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    float cost = 95.00;
+    if (cost > 100.0) {
+        printf("Congrats! You get a 10%% discount.\n");
+    } else {
+        printf("Total cost is $%.2f, no discount applied.\n", cost);
+    }
+    return 0;
+}
