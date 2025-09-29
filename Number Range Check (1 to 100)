@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int val = 101;
+    if (val >= 1 && val <= 100) {
+        printf("%d is in range [1, 100].\n", val);
+    } else {
+        printf("%d is out of range.\n", val);
+    }
+    return 0;
+}
