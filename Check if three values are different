@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int v1 = 5, v2 = 6, v3 = 5;
+    if (v1 != v2 && v2 != v3 && v1 != v3) {
+        printf("All values are distinct.\n");
+    } else {
+        printf("At least two values are the same.\n");
+    }
+    return 0;
+}
