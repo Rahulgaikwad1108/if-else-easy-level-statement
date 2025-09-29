@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int num1 = 15, num2 = 15;
+    if (num1 != num2) {
+        printf("The numbers are different.\n");
+    } else {
+        printf("The numbers are the same.\n");
+    }
+    return 0;
+}
