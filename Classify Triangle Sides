@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int s1 = 3, s2 = 4, s3 = 3;
+    if (s1 == s2 && s2 == s3) {
+        printf("Equilateral.\n");
+    } else if (s1 == s2 || s1 == s3 || s2 == s3) {
+        printf("Isosceles.\n");
+    } else {
+        printf("Scalene.\n");
+    }
+    return 0;
+}
