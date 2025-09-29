@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int day_code = 6; // 1=Mon, 7=Sun
+    if (day_code >= 1 && day_code <= 5) {
+        printf("It's a weekday.\n");
+    } else if (day_code == 6 || day_code == 7) {
+        printf("It's the weekend!\n");
+    } else {
+        printf("Invalid day code.\n");
+    }
+    return 0;
+}
