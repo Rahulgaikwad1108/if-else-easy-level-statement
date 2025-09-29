@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    char input_char = 'A';
+    if (input_char == 'A') {
+        printf("First letter of the alphabet found.\n");
+    } else {
+        printf("Not the letter A.\n");
+    }
+    return 0;
+}
