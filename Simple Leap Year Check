@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int year = 2023;
+    if (year % 4 == 0) {
+        printf("%d might be a leap year.\n", year); // Simplified check
+    } else {
+        printf("%d is definitely not a leap year.\n", year);
+    }
+    return 0;
+}
