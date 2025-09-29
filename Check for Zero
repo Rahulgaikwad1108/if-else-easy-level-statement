@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int value = 0;
+    if (value == 0) {
+        printf("The value is zero.\n");
+    } else {
+        printf("The value is non-zero.\n");
+    }
+    return 0;
+}
