@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    float f = -0.001;
+    if (f < 0.0) {
+        printf("The float is negative.\n");
+    } else {
+        printf("The float is positive or zero.\n");
+    }
+    return 0;
+}
