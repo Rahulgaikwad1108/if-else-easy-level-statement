@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 20;
+    if (a > b) {
+        printf("A is greater: %d\n", a);
+    } else if (b > a) {
+        printf("B is greater: %d\n", b);
+    } else {
+        printf("A and B are equal.\n");
+    }
+    return 0;
+}
