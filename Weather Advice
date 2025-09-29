@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int temp = 5;
+    if (temp < 10) {
+        printf("It's cold. Wear layers.\n");
+    } else if (temp > 25) {
+        printf("It's warm. Stay cool.\n");
+    } else {
+        printf("The weather is pleasant.\n");
+    }
+    return 0;
+}
